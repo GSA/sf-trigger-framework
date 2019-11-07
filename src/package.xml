@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TriggerFramework</fullName>
+    <types>
+        <members>ITriggerHandler</members>
+        <members>TriggerDispatcher</members>
+        <name>ApexClass</name>
+    </types>
+    
+    <types>
+        <members>Trigger_Settings__mdt.Max_Loop_Count__c</members>
+        <members>Trigger_Settings__mdt.ObjectName__c</members>
+        <members>Trigger_Settings__mdt.Recursion_Check__c</members>
+        <members>Trigger_Settings__mdt.isActive__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Trigger_Settings.AccountTrigger</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>Trigger_Settings__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Bypass_Trigger</members>
+        <name>CustomPermission</name>
+    </types>
+    <types>
+        <members>Trigger_Settings__mdt-Trigger Settings Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>47.0</version>
+</Package>

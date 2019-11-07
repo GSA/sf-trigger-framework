@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Custom permission to be used to assign to specific users for whom the trigger has to be bypassed.</description>
+    <label>Bypass Trigger</label>
+</CustomPermission>
