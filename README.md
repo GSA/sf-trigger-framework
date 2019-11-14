@@ -20,6 +20,7 @@ How the new Trigger Framework  works?
 
 Below are the key elements of this framework
 
+![ERD](https://github.com/GSA/sf-trigger-framework/blob/master/ERD.png)
 
 
 Naming Convention
