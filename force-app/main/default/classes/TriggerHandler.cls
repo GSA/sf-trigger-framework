@@ -7,7 +7,7 @@
 public with sharing class TriggerHandler {
 
     /**
-     * Call this method from your trigger, passing in an instance of a trigger handler which implements TriggerFactoryI.
+     * Call this method from your trigger, passing in an instance of a trigger handler which implements TriggerHandler.IEvents
      * This method will fire the appropriate methods on the handler depending on the trigger context.
      * @param events ITriggerHandler interface
      */

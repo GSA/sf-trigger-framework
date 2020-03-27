@@ -25,7 +25,7 @@ This repository is a simple trigger framework for bulkifying triggers and allowi
 public with sharing class TriggerHandler {
 
     /**
-     * Call this method from your trigger, passing in an instance of a trigger handler which implements TriggerFactoryI.
+     * Call this method from your trigger, passing in an instance of a trigger handler which implements TriggerHandler.IEvents
      * This method will fire the appropriate methods on the handler depending on the trigger context.
      * @param events ITriggerHandler interface
      */
@@ -122,7 +122,6 @@ public with sharing class AccountTH implements TriggerHandler.IEvents {
 
     @future
     private static void doFuture(Set<Id> newIds) {
-        PageReference pageRef = Page.zz401Controller;
         Account[] objs = [SELECT Id FROM Account WHERE Id IN : newIds];
         for (Account objCur : objs) {
 
