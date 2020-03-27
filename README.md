@@ -27,7 +27,7 @@ public with sharing class TriggerHandler {
     /**
      * Call this method from your trigger, passing in an instance of a trigger handler which implements TriggerHandler.IEvents
      * This method will fire the appropriate methods on the handler depending on the trigger context.
-     * @param events ITriggerHandler interface
+     * @param events IEvents interface
      */
     public static void execute(IEvents events) {
         // Check to see if the trigger has been disabled. If it has, return
