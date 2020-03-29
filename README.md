@@ -1,5 +1,9 @@
 # Salesforce Trigger Framework
 
+Trigger Handler based on Chris Aldridge's [Lightweight Apex Trigger Framework](https://github.com/ChrisAldridge/Lightweight-Trigger-Framework)
+
+See Chris' original blog post: [Lightweight Apex Trigger Framework](http://chrisaldridge.com/triggers/lightweight-apex-trigger-framework/)
+
 ## Why should I use a Trigger Framework?
 
 A trigger framework is a way to remove the logic from your triggers and enforce consistency across the platform. The framework itself will do the heavy lifting in terms of figuring out which kind of trigger is currently running and firing the correct logic.  Few advantages of using the framework are: 
